@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De la Tierra</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <script src="https://kit.fontawesome.com/9cf91588b6.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <header>
+
+        <a href="index.html">
+            <h1>De la Tierra <a href="Contacto.html">
+                    <i class="fa-solid fa-seedling" id=icono></i></a>
+
+            </h1>
+        </a>
+
+        <nav>
+            <div class="barra">
+                <a href="index.html">¿Quiénes somos?</a>
+                <a href="Productos.html">Productos</a>
+                <a href="Ubicación.html">Ubicación</a>
+                <a href="Contacto.html">Contacto</a>
+
+
+            </div>
+
+        </nav>
+    </header>
+    <form action="mailto:acuarianna@gmail.com" method="post" enctype="text/plain" id="formulario">
+
+        <div class="contacto">
+
+
+            <label for="nombre">NOMBRE Y APELLIDO</label>
+            <input type="text" name="nombre" required id="nombre">
+            <br>
+            <br>
+            <label for="telefono">CELULAR</label>
+            <input type="tel" name="telefono" required id="telefono">
+
+            <br>
+            <br>
+            <label for="correo">CORREO ELECTRÓNICO</label>
+            <input type="email" name="correo" required id="correo">
+            <br>
+            <br>
+            <label for="mensaje">DEJÁ TU MENSAJE</label>
+            <textarea name="texto" cols="80" rows="10" required></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Enviar" onclick="validacionForm()">
+
+
+
+
+        </div>
+
+    </form>
+
+
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>
